@@ -1,0 +1,30 @@
+const person = [
+    {
+      name: "rahim",
+      age: 22,
+      friends: ["rahim,karim,jabbar"],
+    },
+    {
+      name: "rahim2",
+      age: 22,
+      friends: ["rahim,karim,jabbar"],
+    },
+    {
+    name: "rahim3",
+    age: 22,
+    friends: ["rahim,karim,jabbar"],
+  },
+  ];
+ 
+  const x = person.slice(1,2);
+  console.log(x[0]);
+  
+
+  const obj ={a:1, b:7, c:3, length:2};
+console.log(Object.keys(obj).length);
+
+const obj1= {module: 35, video:2}; const obj2= {module: 35, video:2};
+console.log(obj1 === obj2);
+
+ const getGirlFriend= (name = "chokina")=>"name"; console.log(getGirlFriend()); 
+
